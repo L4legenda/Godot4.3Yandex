@@ -1,3 +1,4 @@
+Export
 ```html
 <script src="https://yandex.ru/games/sdk/v2"></script>
 <script>
@@ -35,7 +36,7 @@ function ShowAdRewardedVideo(callback) {
 
 </script>
 ```
-
+Global
 ```gdscript
 var coins = 0
 var callback_rewarded_ad = JavaScriptBridge.create_callback(_rewarded_ad)

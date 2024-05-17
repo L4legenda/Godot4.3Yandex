@@ -54,6 +54,9 @@ var callback_ad = JavaScriptBridge.create_callback(_ad)
 var callback_audio = JavaScriptBridge.create_callback(_on_audio)
 @onready var win = JavaScriptBridge.get_interface("window")
 
+func _ready() -> void:
+	js_music_init()
+
 func js_music_init():
 	if not win:
 		return

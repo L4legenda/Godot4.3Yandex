@@ -44,7 +44,13 @@ function InitVisibilityChange(callback) {
         }
     });
 }
+
 </script>
+<style>
+html, body {
+	overflow: hidden;
+}
+</style>
 ```
 Global
 ```gdscript

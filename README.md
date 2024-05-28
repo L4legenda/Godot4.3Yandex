@@ -62,9 +62,9 @@ var callback_audio = JavaScriptBridge.create_callback(_on_audio)
 
 
 func _ready() -> void:
-	GlobalData.setting_resource.load_resource()
-	GlobalData.js_music_init()
-	GlobalData.js_show_ad()
+	setting_resource.load_resource()
+	js_music_init()
+	js_show_ad()
 
 func js_music_init():
 	if not setting_resource.sound_mute:
